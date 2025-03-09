@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>منصة المشاركات</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>منصة المشاركات النصية</h1>
+    <nav>
+      <a href="pages/login.html">تسجيل الدخول</a>
+      <a href="pages/register.html">تسجيل جديد</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="post-form">
+      <h2>أنشئ مشاركة جديدة</h2>
+      <form id="postForm">
+        <input type="text" id="postTitle" placeholder="عنوان المشاركة">
+        <textarea id="postContent" placeholder="محتوى المشاركة"></textarea>
+        <button type="submit">نشر</button>
+      </form>
+    </section>
+
+    <section class="posts-container">
+      <h2>أحدث المشاركات</h2>
+      <div id="postsList"></div>
+    </section>
+  </main>
+ 
+ 
+  <script src="app.js"></script>
+</body>
+</html>
