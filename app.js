@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://api-concnectify.onrender.com/api';
 
 // جميع الوظائف هنا مباشرة
 async function getPosts() {
